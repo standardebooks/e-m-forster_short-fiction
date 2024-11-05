@@ -22,22 +22,21 @@ footer{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:song"] p{
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p + p{
-	margin-top: 1em;
-}
-
-[epub|type~="z3998:song"] p > span{
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-[epub|type~="z3998:song"] p > span + br{
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
@@ -48,19 +47,19 @@ p span.i1{
 
 #the-celestial-omnibus span{
 	display: block;
+	margin: 0.5em 0;
 	text-align: center;
-	margin: 0.25em 0;
 }
 
 #the-celestial-omnibus img{
 	height: 1.5em;
-	vertical-align: middle;
 	margin-right: 0.5em;
+	vertical-align: middle;
 }
 
 #the-celestial-omnibus blockquote[xml|lang="el"]{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 #the-celestial-omnibus blockquote:last-child > header{
