@@ -52,6 +52,12 @@ p span.i1{
 	margin: 0.25em 0;
 }
 
+#the-celestial-omnibus img{
+	height: 1.5em;
+	vertical-align: middle;
+	margin-right: 0.5em;
+}
+
 #the-celestial-omnibus blockquote[xml|lang="el"]{
 	text-align: center;
 	font-variant: small-caps;
