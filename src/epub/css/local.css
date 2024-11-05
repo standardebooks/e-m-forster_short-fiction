@@ -1,2 +1,66 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
+
+body [xml|lang]{
+	font-style: italic;
+}
+
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"],
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
+}
+
+[epub|type~="z3998:song"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+#the-celestial-omnibus span{
+	display: block;
+	text-align: center;
+	margin: 0.25em 0;
+}
+
+#the-celestial-omnibus blockquote[xml|lang="el"]{
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#the-celestial-omnibus blockquote:last-child > header{
+	font-variant: normal;
+}
+
+#the-machine-stops blockquote{
+	text-align: center;
+}
