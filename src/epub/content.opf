@@ -42,6 +42,8 @@
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
+		<!-- Albergo Empedocle -->
+		<dc:source>https://archive.org/details/sim_temple-bar_1903-12_128_517</dc:source>
 		<!-- The Celestial Omnibus, and Other Stories -->
 		<dc:source>https://www.gutenberg.org/ebooks/34089</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/005921720</dc:source>
@@ -86,6 +88,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 	</metadata>
@@ -97,6 +100,7 @@
 		<item href="images/illustration-1.svg" id="illustration-1.svg" media-type="image/svg+xml"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/albergo-empedocle.xhtml" id="albergo-empedocle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/coordination.xhtml" id="coordination.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -118,6 +122,7 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="albergo-empedocle.xhtml"/>
 		<itemref idref="the-story-of-a-panic.xhtml"/>
 		<itemref idref="the-other-side-of-the-hedge.xhtml"/>
 		<itemref idref="the-celestial-omnibus.xhtml"/>
