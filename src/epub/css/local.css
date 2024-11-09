@@ -2,6 +2,7 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+q,
 body [xml|lang]{
 	font-style: italic;
 }
@@ -69,6 +70,7 @@ p span.i1{
 
 #the-celestial-omnibus blockquote[xml|lang="el"]{
 	font-variant: small-caps;
+	font-style: normal;
 	text-align: center;
 }
 
