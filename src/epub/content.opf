@@ -36,10 +36,14 @@
 		<meta property="term" refines="#subject-1">sh85121854</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85043367</meta>
+		<meta property="se:subject">Fantasy</meta>
+		<meta property="se:subject">Science Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of E. M. Forster’s short stories, ordered by date of their original publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/e-m-forster"&gt;&lt;abbr&gt;E. M.&lt;/abbr&gt; Forster&lt;/a&gt; was a British author primarily writing in the first half of the twentieth century. A perennial Nobel Prize in Literature nominee, he is best remembered for his novels, which include &lt;a href="https://standardebooks.org/ebooks/e-m-forster/a-room-with-a-view"&gt;&lt;i&gt;A Room With a View&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/e-m-forster/a-passage-to-india"&gt;&lt;i&gt;A Passage to India&lt;/i&gt;&lt;/a&gt;. He turned his hand to most forms of writing, and produced plays, film scripts, travelogues, criticism, essays, and, collected here, well-regarded short stories.&lt;/p&gt;
+			&lt;p&gt;Forster often used the mores of Edwardian society to lightly satirize the characters in his work, but he rarely missed an opportunity to take them into the realm of fantasy. In “Albergo Empedocle” the otherwise unremarkable fiancé starts believing in past lives after a visit to an ancient Greek temple, and in “The Celestial Omnibus” a head of a Literary Society comes into unexpected contact with the Wagnerian characters he knows so well from the page. As well as satire and fantasy, Forster also contributed to early speculative fiction with his short story “The Machine Stops;” the setting of a room with video calling and buttons that produce literature and music seems worryingly prescient by the end.&lt;/p&gt;
+			&lt;p&gt;This collection includes all of Forster’s short fiction that is in the U.S. public domain, ordered by date of its first publication.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<!-- Albergo Empedocle -->
@@ -53,7 +57,7 @@
 		<meta property="se:production-notes">Used https://archive.org/details/bibliographyofem0000kirk/page/108/mode/2up to determine publication order.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/E._M._Forster#Short_stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-m-forster_short-fiction</meta>
 		<dc:creator id="author">E. M. Forster</dc:creator>
 		<meta property="file-as" refines="#author">Forster, E. M.</meta>
