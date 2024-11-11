@@ -50,7 +50,7 @@
 		<!-- The Eternal Moment, and Other Stories -->
 		<dc:source>https://www.gutenberg.org/ebooks/72890</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000390776</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">Used https://archive.org/details/bibliographyofem0000kirk/page/108/mode/2up to determine publication order.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
@@ -124,18 +124,18 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="albergo-empedocle.xhtml"/>
+		<itemref idref="the-road-from-colonus.xhtml"/>
 		<itemref idref="the-story-of-a-panic.xhtml"/>
 		<itemref idref="the-other-side-of-the-hedge.xhtml"/>
+		<itemref idref="the-eternal-moment.xhtml"/>
+		<itemref idref="the-curates-friend.xhtml"/>
 		<itemref idref="the-celestial-omnibus.xhtml"/>
 		<itemref idref="other-kingdom.xhtml"/>
-		<itemref idref="the-curates-friend.xhtml"/>
-		<itemref idref="the-road-from-colonus.xhtml"/>
 		<itemref idref="the-machine-stops.xhtml"/>
-		<itemref idref="the-point-of-it.xhtml"/>
 		<itemref idref="mr-andrews.xhtml"/>
+		<itemref idref="the-point-of-it.xhtml"/>
 		<itemref idref="coordination.xhtml"/>
 		<itemref idref="the-story-of-the-siren.xhtml"/>
-		<itemref idref="the-eternal-moment.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
