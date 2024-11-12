@@ -56,10 +56,17 @@ p span.i1{
 	text-indent: -1em;
 }
 
-#the-celestial-omnibus span{
+#the-celestial-omnibus span,
+#the-celestial-omnibus blockquote:first-of-type > p:first-of-type{
 	display: block;
 	margin: .5em 0;
 	text-align: center;
+	text-indent: 0;
+}
+
+#the-celestial-omnibus blockquote:first-of-type > p:first-of-type,
+#the-celestial-omnibus blockquote:first-of-type > p span:first-of-type{
+	font-style: italic;
 }
 
 #the-celestial-omnibus img{
