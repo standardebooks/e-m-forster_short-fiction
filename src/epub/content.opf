@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/e-m-forster/short-fiction</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-11-12T17:47:12Z</dc:date>
+		<meta property="dcterms:modified">2024-11-12T17:47:12Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -41,8 +41,8 @@
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">A collection of E. M. Forster’s short stories, ordered by date of their original publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/e-m-forster"&gt;&lt;abbr&gt;E. M.&lt;/abbr&gt; Forster&lt;/a&gt; was a British author primarily writing in the first half of the twentieth century. A perennial Nobel Prize in Literature nominee, he is best remembered for his novels, which include &lt;a href="https://standardebooks.org/ebooks/e-m-forster/a-room-with-a-view"&gt;&lt;i&gt;A Room With a View&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/e-m-forster/a-passage-to-india"&gt;&lt;i&gt;A Passage to India&lt;/i&gt;&lt;/a&gt;. He turned his hand to most forms of writing, and produced plays, film scripts, travelogues, criticism, essays, and, collected here, well-regarded short stories.&lt;/p&gt;
-			&lt;p&gt;Forster often used the mores of Edwardian society to lightly satirize the characters in his work, but he rarely missed an opportunity to take them into the realm of fantasy. In “Albergo Empedocle” the otherwise unremarkable fiancé starts believing in past lives after a visit to an ancient Greek temple, and in “The Celestial Omnibus” a head of a Literary Society comes into unexpected contact with the Wagnerian characters he knows so well from the page. As well as satire and fantasy, Forster also contributed to early speculative fiction with his short story “The Machine Stops;” the setting of a room with video calling and buttons that produce literature and music seems worryingly prescient by the end.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/e-m-forster"&gt;&lt;abbr&gt;E. M.&lt;/abbr&gt; Forster&lt;/a&gt; was a British author primarily writing in the first half of the twentieth century. A perennial Nobel Prize in Literature nominee, he is best remembered for his novels, which include &lt;a href="https://standardebooks.org/ebooks/e-m-forster/a-room-with-a-view"&gt;&lt;i&gt;A Room With a View&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/e-m-forster/a-passage-to-india"&gt;&lt;i&gt;A Passage to India&lt;/i&gt;&lt;/a&gt;. He turned his hand to most forms of writing, producing plays, film scripts, travelogues, criticism, essays, and, collected here, well-regarded short stories.&lt;/p&gt;
+			&lt;p&gt;Forster often used the mores of Edwardian society to lightly satirize the characters in his work, but he rarely missed an opportunity to take them into the realm of fantasy. In “Albergo Empedocle” an otherwise unremarkable fiancé starts believing in past lives after a visit to an ancient Greek temple; in “The Celestial Omnibus” a head of a Literary Society comes into unexpected contact with the Wagnerian characters he knows so well from the page. As well as writing satire and fantasy, Forster also contributed to early speculative fiction with his short story “The Machine Stops;” the setting of a room with video calling and buttons that produce literature and music seems worryingly prescient.&lt;/p&gt;
 			&lt;p&gt;This collection includes all of Forster’s short fiction that is in the U.S. public domain, ordered by date of its first publication.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
@@ -55,8 +55,8 @@
 		<dc:source>https://www.gutenberg.org/ebooks/72890</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000390776</dc:source>
 		<meta property="se:production-notes">Used https://archive.org/details/bibliographyofem0000kirk/page/108/mode/2up to determine publication order.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">78712</meta>
+		<meta property="se:reading-ease.flesch">74.49</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/E._M._Forster#Short_stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-m-forster_short-fiction</meta>
 		<dc:creator id="author">E. M. Forster</dc:creator>
@@ -96,6 +96,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
