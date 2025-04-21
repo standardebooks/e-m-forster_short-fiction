@@ -39,6 +39,7 @@
 		<meta property="se:subject">Fantasy</meta>
 		<meta property="se:subject">Science Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of E. M. Forster’s short stories, ordered by date of their original publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/e-m-forster"&gt;&lt;abbr&gt;E. M.&lt;/abbr&gt; Forster&lt;/a&gt; was a British author primarily writing in the first half of the twentieth century. A perennial Nobel Prize in Literature nominee, he is best remembered for his novels, which include &lt;a href="https://standardebooks.org/ebooks/e-m-forster/a-room-with-a-view"&gt;&lt;i&gt;A Room With a View&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/e-m-forster/a-passage-to-india"&gt;&lt;i&gt;A Passage to India&lt;/i&gt;&lt;/a&gt;. He turned his hand to most forms of writing, producing plays, film scripts, travelogues, criticism, essays, and, collected here, well-regarded short stories.&lt;/p&gt;
