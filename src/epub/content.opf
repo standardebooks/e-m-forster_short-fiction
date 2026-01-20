@@ -56,7 +56,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/72890</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/000390776</dc:source>
 		<meta property="se:production-notes">Used https://archive.org/details/bibliographyofem0000kirk/page/108 to determine publication order.</meta>
-		<meta property="se:word-count">78712</meta>
+		<meta property="se:word-count">78029</meta>
 		<meta property="se:reading-ease.flesch">74.49</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/E._M._Forster#Short_stories</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/e-m-forster_short-fiction</meta>
