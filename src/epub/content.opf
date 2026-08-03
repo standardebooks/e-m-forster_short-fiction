@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/e-m-forster/short-fiction</dc:identifier>
 		<dc:date>2024-11-12T17:47:12Z</dc:date>
@@ -41,12 +41,12 @@
 		<meta property="schema:genre">Science Fiction</meta>
 		<meta property="schema:genre">Shorts</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<dc:description id="description">A collection of E. M. Forster’s short stories, ordered by date of their original publication.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A collection of E. M. Forster’s short stories, ordered by date of their original publication.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/e-m-forster"&gt;&lt;abbr&gt;E. M.&lt;/abbr&gt; Forster&lt;/a&gt; was a British author primarily writing in the first half of the twentieth century. A perennial Nobel Prize in Literature nominee, he is best remembered for his novels, which include &lt;a href="https://standardebooks.org/ebooks/e-m-forster/a-room-with-a-view"&gt;&lt;i&gt;A Room With a View&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/e-m-forster/a-passage-to-india"&gt;&lt;i&gt;A Passage to India&lt;/i&gt;&lt;/a&gt;. He turned his hand to most forms of writing, producing plays, film scripts, travelogues, criticism, essays, and, collected here, well-regarded short stories.&lt;/p&gt;
 			&lt;p&gt;Forster often used the mores of Edwardian society to lightly satirize the characters in his work, but he rarely missed an opportunity to take them into the realm of fantasy. In “Albergo Empedocle” an otherwise unremarkable fiancé starts believing in past lives after a visit to an ancient Greek temple; in “The Celestial Omnibus” a head of a Literary Society comes into unexpected contact with the Wagnerian characters he knows so well from the page. As well as writing satire and fantasy, Forster also contributed to early speculative fiction with his short story “The Machine Stops;” the setting of a room with video calling and buttons that produce literature and music seems worryingly prescient.&lt;/p&gt;
 			&lt;p&gt;This collection includes all of Forster’s short fiction that is in the U.S. public domain, ordered by date of its first publication.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!-- Albergo Empedocle -->
 		<dc:source>https://archive.org/details/sim_temple-bar_1903-12_128_517</dc:source>
